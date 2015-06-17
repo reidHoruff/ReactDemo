@@ -47,8 +47,14 @@ var Comment = React.createClass({
   render: function() {
     var reply = this.state.show_input ?
       <div className="replybox">
-        <input value={this.state.reply_name_value} onChange={this.handleChange.bind(this, 'name')}></input>
-        <textarea value={this.state.comment_value} onChange={this.handleChange.bind(this, 'body')}></textarea>
+        <input 
+          value={this.state.reply_name_value} 
+          onChange={this.handleChange.bind(this, 'name')}>
+        </input>
+        <textarea 
+          value={this.state.comment_value} 
+          onChange={this.handleChange.bind(this, 'body')}>
+        </textarea>
         <br/>
         <button onClick={this.submitClicked}>submit</button>
       </div>
