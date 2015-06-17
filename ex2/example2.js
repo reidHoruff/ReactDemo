@@ -81,11 +81,11 @@ var Comments = React.createClass({
 
 var dom = (
     <Comments>
-      <Comment name='reid' comment='hello world'>
-        <Comment name='john' comment='hello world'>
-          <Comment name='john' comment='hello world' />
+      <Comment name='bob' comment='hello world'>
+        <Comment name='john' comment='hello world reply'>
+          <Comment name='suzie' comment='hello world' />
         </Comment>
-        <Comment name='john' comment='hello world' />
+        <Comment name='greg' comment='hello world' />
       </Comment>
       <Comment name='marry' comment='hello world' />
     </Comments>
