@@ -1,4 +1,2 @@
-###ReactJS - CS4331
-A demo over React JS
-
+###ReactJS Demo - CS4331
 [React Site](https://facebook.github.io/react/index.html)
